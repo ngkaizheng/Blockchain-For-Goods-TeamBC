@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap&family=Instrument+Serif:ital@1&display=swap&family=Kalam&display=swap");
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 100px;
+}
+
+/* Styles for the App-header */
+.App-header {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* App.css */
+.background-image {
+  /* background-image: url("https://images.pexels.com/photos/2395249/pexels-photo-2395249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); Replace with your image URL */
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Styles for the app-logo */
+.app-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the h1 element */
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 36px;
+  font-family: "Instrument Serif", sans-serif;
+  font-weight: bold;
+}
+
+/* Styles for the btn-wallet class (used for Connect/Disconnect buttons) */
+.btn-wallet {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-wallet:hover {
+  background-color: #0056b3;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Styles for the Claim button */
+#claim-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#claim-button:hover {
+  background-color: #218838;
+}
+
+/* Styles for the Donation Amount input, MAX button, and Submit Donation button */
+#donationAmount {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#max-button,
+#submit-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#max-button:hover,
+#submit-button:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  color: red;
+  font-size: 48px;
+  font-weight: bold;
+}
